@@ -19,7 +19,7 @@ export default function Heading(){
         
         
         </div>
-        <nav>
+        <nav className=''>
           <ul className='flex items-center  bg-green-800 text-white p-3 font-bold'>
             <Link className="mr-4" to = "/">Home</Link>
             <Link className="mr-4" to = "/places-to-visit">Places to visit</Link>

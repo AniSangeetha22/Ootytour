@@ -7,10 +7,10 @@ import doddabetta from "../images/doddabetta1.jpg";
 
 export default function PlacesToVisit() {
   return (
-    <section className="w-[80%]  m-auto flex-col items-center   ">
-      <div className=" lg:pt-[150px] lg:w-[60%] md:w-[90%] sm:pt-[180px] mb-4  m-auto">
-        <h1 className="mb-4 text-2xl font-medium ">1. Avalanche Lake</h1>
-        <img className=" w-full mb-3" src={avalancheLake} alt="Avalanche Lake" />
+    <section className="w-[80%] pt-40 m-auto flex-col items-center  ">
+      <div className="  lg:w-[60%] md:w-[90%]  mb-4  m-auto">
+        <h1 className="mb-4 pt-8  text-2xl font-medium ">1. Avalanche Lake</h1>
+        <img className=" w-full mb-3 pt-2" src={avalancheLake} alt="Avalanche Lake" />
         <ol className="ml-2">
           <li>Recommended Duration: 2 Hours</li>
         </ol>
