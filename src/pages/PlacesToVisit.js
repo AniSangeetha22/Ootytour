@@ -7,8 +7,8 @@ import doddabetta from "../images/doddabetta1.jpg";
 
 export default function PlacesToVisit() {
   return (
-    <section className="w-[80%] m-auto flex-col items-center  ">
-      <div className=" pt-[150px] w-[60%] mb-4  m-auto">
+    <section className="w-[80%]  m-auto flex-col items-center   ">
+      <div className=" lg:pt-[150px] lg:w-[60%] md:w-[90%] sm:pt-[180px] mb-4  m-auto">
         <h1 className="mb-4 text-2xl font-medium ">1. Avalanche Lake</h1>
         <img className=" w-full mb-3" src={avalancheLake} alt="Avalanche Lake" />
         <ol className="ml-2">
@@ -26,7 +26,7 @@ export default function PlacesToVisit() {
           Upper Bhavani. It is also an ideal picnic spot.
         </p>
       </div>
-      <div className="w-[60%] mb-4  m-auto">
+      <div className=" lg:w-[60%] md:w-[90%]  mb-4  m-auto">
         <h1 className="mb-4 text-2xl font-medium">2. Ooty Rose Garden</h1>
         <img className=" w-full mb-3" src={roseGarden} alt="Rose Garden" srcset="" />
         <p className=" text-lg text-justify">
@@ -45,7 +45,7 @@ export default function PlacesToVisit() {
           ever, choosing from the below packages for a 3 day Ooty tour
         </p>
       </div>
-      <div className="w-[60%] mb-4  m-auto">
+      <div className="lg:w-[60%] md:w-[90%]  mb-4  m-auto">
         <h1 className="mb-4 text-2xl font-medium">
           3.Toda Hamlet / School Mund
         </h1>
@@ -57,7 +57,7 @@ export default function PlacesToVisit() {
           time.
         </p>
       </div>
-      <div className="w-[60%] mb-4  m-auto">
+      <div className="lg:w-[60%] md:w-[90%]  mb-4  m-auto">
         <h1 className="mb-4 text-2xl font-medium">4.Pykara Lake \ Boat Club</h1>
         <img className=" w-full mb-3" src={boatClub} alt="boatClub" srcset="" />
         <p className=" text-lg text-justify">
@@ -71,7 +71,7 @@ export default function PlacesToVisit() {
           relaxing ambience enveloping the lake.
         </p>
       </div>
-      <div className="w-[60%] mb-4  m-auto">
+      <div className="lg:w-[60%] md:w-[90%]  mb-4  m-auto">
         <h1 className="mb-4 text-2xl font-medium">4.Doddabetta </h1>
         <img className=" w-full mb-3" src={doddabetta} alt="" srcset="" />
         <p className=" text-lg text-justify">
