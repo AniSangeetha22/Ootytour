@@ -1,16 +1,19 @@
 // import React from 'react'
-import ootyImg from "../images/Ooty-Blog1.jpg";
+import ootyImg from "../images/ootyhill.jpg";
 
 
 export default function Home() {
   return (
-    <section className="">
+    <section className="pt-[109px]">
          
            <div className='relative w-full mb-4 '>
             <img className=" w-full z-50 h-[400px] m-auto py-4" src= {ootyImg} alt="Ooty" />
-            <h1 className='absolute -top-5 text-3xl  mt-6 font-bold text-white'>Ooty</h1>
+            <h1 className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-5xl  mt-6 font-normal italic font-serif text-white'>Ooty - The Queen of Hill stations</h1>
            </div>
            <div  className="mb-4 w-[75%] m-auto ">
+            <p className="mb-4">
+            Ooty, the Queen of Hill stations, welcome you with mesmerising meadows, soothing environment, cool weather and a wide array of sightseeing places to visit and admire. Each tourist attraction in Ooty promises a unique and lively experience that will leave you in awe for many days to come. However, if you are wondering what to do in Ooty and what to see in Ooty then have a look at the various sightseeing places that we have mentioned below. With these interesting places to see, you can be sure of having a memorable Ooty tour.
+            </p>
             <p className="mb-4">
             From nature walks in gardens that makes one wonder whether Paradise, as depicted in scriptures of various cultures, have actually been derived from such sensory experiences to relaxing over a cup of tea from the tea plantations dotting the hillside, only to realize most humbly of nature’s gifts as a bountiful provider, the tourist places in Ooty can be expected to resuscitate the soul, depleted of its spiritual reserves through the trials of everyday existence.  
             </p>
